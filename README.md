@@ -85,7 +85,7 @@ This project is licensed under the **MIT License** — feel free to use, modify,
 
 ## Author
 
-Built by [Abhishek Holla A B]  
+Built by: Abhishek Holla A B  
 📧 Email: abhiholla2012@gmail.com  
 🌐 GitHub: [@AbhishekHollaAB](https://github.com/your-username)
 
