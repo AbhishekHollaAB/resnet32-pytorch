@@ -1,10 +1,10 @@
-# 🧠 ResNet32 - Custom Residual Network in PyTorch
+# ResNet32 - Custom Residual Network in PyTorch
 
 This repository contains a custom implementation of a **ResNet32-like architecture** using PyTorch. It is inspired by the original [ResNet paper (He et al., 2015)](https://arxiv.org/abs/1512.03385) and tested on the **MNIST dataset**.
 
 ---
 
-## 🛠️ Architecture
+## Architecture
 
 This custom ResNet32 uses the following configuration of residual blocks:
 
@@ -17,7 +17,7 @@ Similar to the original ResNet-34/50 which uses [3, 4, 6, 3], this version incre
 
 ---
 
-## 📦 Features
+## Features
 
 - Fully custom BasicBlock with 3 convolutional layers
 - Supports skip connections with downsampling
@@ -27,14 +27,14 @@ Similar to the original ResNet-34/50 which uses [3, 4, 6, 3], this version incre
 
 ---
 
-## 🧪 Dataset
+## Dataset
 
 Trained on **MNIST** using `torchvision.datasets.MNIST`.  
 To support grayscale input, the first conv layer is modified from 3 channels to 1.
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repo
 ```bash
@@ -54,7 +54,7 @@ python train.py
 
 ---
 
-## 📊 Results
+## Results
 
 | Epochs | Accuracy |
 |--------|----------|
@@ -64,7 +64,7 @@ python train.py
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ```
 resnet32/
@@ -77,13 +77,13 @@ resnet32/
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License** — feel free to use, modify, and share with attribution.
 
 ---
 
-## 🙋‍♂️ Author
+## Author
 
 Built by [Abhishek Holla A B]  
 📧 Email: abhiholla2012@gmail.com  
@@ -91,4 +91,4 @@ Built by [Abhishek Holla A B]
 
 ---
 
-## ⭐️ Star This Repo
+## Star This Repo
